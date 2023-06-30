@@ -1,0 +1,31 @@
+.item {
+  list-style-type: none;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  width: 615px;
+  border: 1px solid rgb(145, 145, 145);
+  border-radius: 12px;
+  padding: 10px 15px;
+}
+
+.item_toggle {
+  margin-right: 10px;
+}
+
+.item_text_done {
+  text-decoration: line-through;
+}
+
+.item_text {
+  font-size: 16px;
+  text-align: center;
+}
+
+.item_btn {
+  background-color: #ffffff;
+  border: none;
+}

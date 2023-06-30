@@ -1,4 +1,7 @@
 type Todo = {
-    text: string,
-    complete: boolean
-}
+  id: number;
+  text: string;
+  complete: boolean;
+};
+
+export default Todo

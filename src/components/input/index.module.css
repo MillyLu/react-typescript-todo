@@ -1,0 +1,39 @@
+.title {
+  font-size: 36px;
+  color: rgb(72, 72, 72);
+  margin-bottom: 30px;
+}
+
+.add {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+.add_input {
+  width: 550px;
+  padding: 10px 15px;
+  border-radius: 12px;
+  border: 1px solid rgb(145, 145, 145);
+  font-size: 16px;
+}
+
+.add_input::placeholder {
+  color: #212529;
+  opacity: 0.4;
+}
+
+.add_input:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #bdbdbd;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+
+.add_button {
+  padding: 10px 15px;
+  border-radius: 12px;
+  border: 1px solid rgb(145, 145, 145);
+  color: rgb(72, 72, 72);
+}
